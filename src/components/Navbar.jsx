@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
     <div className=' h-[60px] bg-slate-200 flex items-center fixed top-0 w-full shadow-[0_0_10px_0_gray]'>
-      <span className=' mt-1 inline-block ml-1 font-bold text-[20px]'>Welcome, {userName}</span>
+      <span className=' mt-1 inline-block ml-1 font-bold text-[20px]'>{userName}</span>
       <button onClick={handleLogout} className=' ml-auto mr-4 bg-violet-600 w-[80px] h-[30px] rounded-lg text-white hover:scale-105'>Logout</button>
     </div>
     </>

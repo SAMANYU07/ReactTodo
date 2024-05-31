@@ -26,9 +26,9 @@ export default function TodoInp() {
 
   return (
     <>
-    <div className=' bg-slate-200 w-[800px] h-[60px] flex items-center justify-center shadow-[0_0_10px_0_gray] rounded-lg'>
-      <input type="text" value={task1} onChange={(event) => setTask1(event.target.value)} className=' w-[600px] outline-none text-[20px] pl-2 rounded-md' />
-      <button onClick={handleAddTodo} className=' w-[30px] h-[30px] ml-4 rounded-full bg-violet-600 text-white hover:scale-105 active:scale-95 outline-none transition-[0.2s]'>+</button>
+    <div className=' bg-slate-200 md:w-[800px] w-11/12 h-[60px] flex items-center justify-center shadow-[0_0_10px_0_gray] rounded-lg'>
+      <input type="text" value={task1} onChange={(event) => setTask1(event.target.value)} className=' md:w-[600px] w-11/12 outline-none text-[20px] pl-2 ml-2 rounded-md' />
+      <button onClick={handleAddTodo} className=' w-[30px] h-[30px] ml-4 md:mr-0 mr-4 rounded-full bg-violet-600 text-white hover:scale-105 active:scale-95 outline-none transition-[0.2s]'>+</button>
     </div>
     </>
   )
